@@ -102,15 +102,15 @@ body{
 .lists{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   align-items: center;
   margin-top: 10px;
 }
 
 .skills{
-  padding: 10px;
+  padding: 7px 3px;
+
   border: 1px solid #475569;
-  margin: 5px;
+  margin: 2px 4px ;
   border-radius: 7px;
   font-weight: bold;
   color: #CBD5E1;
