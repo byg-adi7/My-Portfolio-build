@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music player</title>
+  <link rel="stylesheet" href="styles/music-player.css">
+</head>
+<body>
+ 
+  <div class="header">
+    <h1 class="title">🎵 Music Player</h1>
+  <p class="description">Build this music player using HTML & CSS</p>
+  </div>
+  <div class="card">
+    <div class="image-container">
+      <img src="assets/album-art.png" alt="ALBUM ART" class="album-image">
+    </div>
+      
+    
+    <div class="detail">
+      <div class ="song-details">
+        <p class="music-name">Life Is Good</p>
+        <p class="musician">Future feat Drake</p>
+      </div>
+      <div class="favouritebtn">
+        <img src="assets/icons8-favorites-50.png" alt="save button" class = "favourite">
+      </div>
+    </div>
+    <div class="input-range">
+      <audio id="audio" src="assets/Future - Life Is Good (Official Music Video) ft. Drake.mp3"></audio>
+    <input type ="range" class="progress-bar" value="0" min="0" max="100">
+    <span class="first-time">1:42</span><span class="Second-time">3:30</span>  
+    </div>
+    <div class="controls">
+    <img src="assets/icons8-back-arrow-50.png" alt="previous" class="back">
+    <img src="assets/icons8-pause-30.png" alt="pause" class ="pause">
+    <img src="assets/icons8-next-50.png" alt="next" class="forward">
+
+    </div>
+    <div class="volume">
+      <span class="volumeicon">🔊</span><input type="range" class="volume-bar" value="100" min="0" max="100">
+    </div>
+  </div>
+
+
+  
+
+  
+</body>
+</html>
